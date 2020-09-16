@@ -12,6 +12,8 @@ import allure
 log = GetLog().get_logger()
 
 
+
+
 class MtxLogin(object):
     def __init__(self):
         self.url = IP + '/mtx/index.php?s=/index/user/login.html'
